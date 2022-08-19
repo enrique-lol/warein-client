@@ -45,7 +45,7 @@ class BayIndex extends Component {
     }
     if (bays.length === 0) {
       return (
-        <p>0 Items to show</p>
+        <p>0 Bays to show</p>
       )
     }
 

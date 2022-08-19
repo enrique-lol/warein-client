@@ -8,13 +8,10 @@ export const bayIndex = () => {
   })
 }
 
-export const bayCreate = (bay, user) => {
+export const bayCreate = (bay) => {
   return axios({
     url: apiUrl + '/bays',
     method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${user.token}`
-    },
     data: {
       bay
     }
